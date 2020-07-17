@@ -1,5 +1,6 @@
 ## Welcome to https://jeanetsai.github.io/Charts
-Stacked, pie chart, and much more
+https://jeanetsai.github.io/Charts/chart.htm
+https://www.d3-graph-gallery.com/
 
 Settings=>slide down Githubpages=>Choose a theme=>right hand side "select theme"
 https://jeanetsai.github.io/Charts
