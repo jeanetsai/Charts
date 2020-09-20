@@ -1,0 +1,108 @@
+01 01 download Tableau
+Support link => download Tableau
+
+Public tableau => Free, not for business
+
+01 02 Install drivers
+
+tableau.com/support/drivers
+
+01 03 Tableau file types
+
+Tableau workbook (.twb)
+Tableau data source (.tds)
+- stores the server address, password, and 
+other info required to access a data source
+Tableau bookmark (.tbm)
+- stores a connection to a worksheet in another Tableau workbook
+Tableau extrace (.tde)
+- stores tableau data as a filtered and aggregated extract
+Tableau packaged workbook (.twbx)
+- stored extracted data and visualizations for viewing in Tableau or Tableau reader
+
+01 04 Get help in tableau
+
+最上方 help => open help
+
+01 05 new features
+
+ch2 managing data sources and visualizations
+
+02 01 connect to a data source
+連接excel檔案
+
+左方connect面板=>to a file=>Microsoft excel
+打開 ex02 Red30TechData
+可以發現我們的excel在左方只有一個sheet 
+
+按下方 sheet1
+將左方的Dimensions的Prod category拖到rows
+Measures 的Order total拖到columns
+
+02 02 Joining related data sources
+JOIN兩個有相同欄位的excel
+
+左方connect面板=>to a file=>Microsoft excel
+打開 ex02 orders
+
+左方connections白面板=>ADD
+=>出現add a connection
+再按一次microsoft excel
+打開ex02 products
+
+出現shee1 -OO- sheet1
+點擊join發現 兩邊都有 product ID這一欄 所以可以join
+
+按下方 sheet1
+把上方product category 拖到 rows
+把下方quantity 拖到中間的data area (abc abc)
+
+可發現我們完成了一個表格
+
+02 03 
+Join data sources with inconsistent field names
+JOIN兩個有不同欄位的excel
+
+左方connect面板=>to a file=>Microsoft excel
+打開 ex02 differentnames.xlsx
+
+左方發現兩個sheet customers和orders
+把orders拖曳到中間 Drag sheets here
+把customers也拖曳到中間 Drag sheets here
+
+發現 -oo- 出現幾個選項
+inner | left | right | full outer
+
+我們要join "order ID"和 "cust ID"
+
+一邊選取 "cust ID" 一邊選取 "order ID"
+
+按下方 sheet1
+把上方 customer state 拖到rows
+把下方 rumber of records 拖到 abc abc
+可發現我們完成了一個表格
+
+02 04 clean up source data
+處理有問題的excel來源檔案
+
+連接cleandata.xlsx
+發現有點問題
+打開excel發現因為有一個大標題
+
+你可以自己刪掉大標題或載入後
+左方sheet白面板
+use data intepreter打勾
+他會自動調整 刪掉大標題
+
+Tableau prep也可以清理data
+
+02 05 reorder fields in a visualization
+
+
+
+
+
+
+
+
+
