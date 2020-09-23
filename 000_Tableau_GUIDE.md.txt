@@ -1,3 +1,6 @@
+連接excel => 拖曳 excel sheet 至中央
+=>下方點選工作表 => 即可進入 tableau 編輯圖表
+
 01 01 download Tableau
 Support link => download Tableau
 
@@ -61,7 +64,7 @@ JOIN兩個有相同欄位的excel
 
 02 03 
 Join data sources with inconsistent field names
-JOIN兩個有不同欄位的excel
+JOIN兩個有不同欄位的excel 資料表關聯
 
 左方connect面板=>to a file=>Microsoft excel
 打開 ex02 differentnames.xlsx
@@ -83,7 +86,7 @@ inner | left | right | full outer
 可發現我們完成了一個表格
 
 02 04 clean up source data
-處理有問題的excel來源檔案
+處理有問題的excel來源檔案:例如處理大標題
 
 連接cleandata.xlsx
 發現有點問題
@@ -98,9 +101,151 @@ Tableau prep也可以清理data
 
 02 05 reorder fields in a visualization
 
+打開0205資料夾之範例
+將左上方的prod category拖到rows
+將左下方的order total拖到abc abc
+
+將左上方的prod name也拖到rows
+(類似pivot table)
+把prod category拖到columns
+
+02 06 change the summary operation
+
+打開02_06 summary
+rows只有一列prod category
+
+左方marks標記面板 detail
+有 Sum(order...)
+按下倒三角形
+選單measure度量 =>sum 總和
+若改成average 則數字會改變成average
+
+
+02 07 split text into multiple columns
+分割和自訂分割
+將一個欄位分割為2個欄位
+例如 姓名 想分成姓和名 兩欄
+
+在匯入資料表的頁面 有preview預覽資料的窗格
+每一欄資料上方都有 藍色abc 右上角有三角形下拉選單
+可以選擇 split分割
+姓名(以空格分隔)就變成了兩欄
+
+欄位-split1 欄位-split2
+再按右上角有三角形下拉選單 可以rename重新幫欄位命名
+
+右上角有三角形下拉選單 還有custom split自訂分割
+可以客製化你要用什麼來分割這個欄位
+
+
+02 08 present data using storylines
+台上報告可以使用:檔案條=>故事=>新增本文
+
+打開0208 storylines.twbx
+最底部sheet條 工作表的右邊 有"new story button"
+把左方story面板的sales by title sheet拖到中間
+則新增了一個story point
+
+中央 add a caption 可以加標題
+story1也可以改成自己的標題
+
+左方story面板 按 blank 新增新的story
+重複拖進去並且重新命名caption
+
+左方story面板 最下方 預設大小為1016x964
+按下三角形可以調整大小
+
+
+02 09 display source metadata
+
+0209_metadata.twbx
+進入datasource資料來源頁面
+預覽窗格的上方 sort fields的左邊兩個小圖示
+的右邊 manage metadata(管理員資料)
+
+點第一個 再捲到最後一個點shift
+全選data後可以copy到新的excel
+
+02 10 join related data sources(更新)
+關連兩個有欄位相同的資料表
+
+打開customers.xlsx
+再打開orders.xlsx
+兩者連接
+2020.2版要手動拖曳進去建立關聯
+
+02 11 join data sources with inconsistent field names(更新)
+關連兩個欄位不同名稱的資料表
+
+舊版
+differentnames.xlsx
+sheets拖進中間並建立關聯
+customer id = cust id
+2020.2版本
+也是這樣 沒有改很多
+
+
+03 managing Tableau worksheets and workbooks
+03 01 display the data underlying a workbook
+查看圖表的原始資料
+
+file條的data menu(資料)
+打開最底的red30techdata(資料名稱自訂)=>第三個欄位view data(檢視資料)
+
+滑鼠拖曳可以選擇資料
+按下ctrl可以選擇不連續的資料
+往下捲並點擊一欄shift可以選擇很長一欄資料
+按欄位名稱 即可sort data
+
+export可匯出(要錢)
+
+03 02 add, duplicate and rename worksheets
+
+右上角show me (顯示)按鈕就是畫圖的panel
+點擊打開或隱藏
+
+新增worksheet => 類似excel那樣 下方+號 可新增worksheet
+點兩下可重新命名
+
+複製工作表也是跟excel一樣 右鍵=>duplicate(重複)
+
+03 03 reorder, clear, and delete worksheets
+
+清空工作表
+=>file條=>worksheet工作表=>clear清除=>sheet工作表
+
+刪除工作表(跟excel一樣)=>點擊下方工作表右鍵=>刪除
+
+03 04 change a worksheet's tab color
 
 
 
+03 05 show or hide worksheet elements
+
+
+
+03 06 save your changes
+
+
+
+03 07 save your workbook as a pdf file
+
+
+
+03 08 create a packaged workbook
+
+
+
+03 09 export data to a csv file
+
+
+
+03 10 export visualization to powerpoint
+
+
+
+04 creating custom calculations and fields
+04 01 prsent tableau operators and built-in functions
 
 
 
