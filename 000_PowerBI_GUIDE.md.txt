@@ -324,21 +324,74 @@ Relate data
 左三 資料表關聯
 
 
-
 0903reduce data
 
+左二 table data view 查看資料區
+
+上方file條 有 Edit Queries => Edit Queries可以進去詳細編輯資料
+
+開啟 power query editor
+
+資料上方都有倒三角形 可篩選掉空白不需要的data
+資料上方有abc 表示文字 123 表示數值
+
+可以remove column
+也有remove rows選項
+
+存檔 pbix
 
 0904transform data
+
+上方file條 有 Edit Queries => Edit Queries可以進去詳細編輯資料
+
+上方home條=>data source settings
+
+上方home條=>split columns
+Data type:text 可以改變
+Use first row as header => 選取Use first row as header
+
+上方transform條=>有很多功能
+先選取欄1 欄2 =>上方transform條=>unpivot columns=>unpivot other columns
+右方query settings可以undo
+
+
+上方transform條=>transpost轉置
+上方transform條=>reverse rows (最後一列變成第一列)
+上方transform條=>Rename =>rename column
 
 
 0905relate tables
 
+Get data => excel => 開啟excel1
+會列出工作表
+選取三個有關聯的工作表
 
-0906 get data with the power I service
+左三 資料表關聯區
+會發現欄位未命名 
+
+上方file條 有 Edit Queries => Edit Queries可以進去詳細編輯資料
+
+打勾(重要)=>home條=>點左邊的表 依序 use first row as header
+=>close apply 回到左三 資料表關聯區
+
+抓住表1的state 拖曳到表二的abrv
+就能把這兩欄建立關聯
+ 
+回到左一編輯頁面
+三個檔案已關聯
+可以透過簡單的打勾來畫圖表
+
+0906 get data with the power BI service
+
+存成pbix後可以分享到one drive
 
 
-0907 export a report from power I service to desktop
+0907 export a report from power BI service to desktop
+
+1001 Conclusion
+有多個目標可以選
 
 
+Source: Power BI Essential Training
 
 
