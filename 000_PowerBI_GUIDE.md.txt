@@ -392,6 +392,11 @@ Get data => excel => 開啟excel1
 有多個目標可以選
 
 
+最後注意兩點:
+1. 匯入excel 時 要確認裡面的表格已格式化為表格
+2. first row as header 要打勾
+
+
 Source: Power BI Essential Training
 
 
