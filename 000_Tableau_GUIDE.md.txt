@@ -217,37 +217,140 @@ export可匯出(要錢)
 刪除工作表(跟excel一樣)=>點擊下方工作表右鍵=>刪除
 
 03 04 change a worksheet's tab color
-
-
+工作表tab可以換顏色
+=>工作表名稱右鍵=>換顏色
 
 03 05 show or hide worksheet elements
+為工作區騰出空間
 
+儀錶板上的東西例如 marks 都可以按上方的三角型藏起來(隱藏卡)
+如果想要這些東西回來
+worksheet工作表=>show cards顯示卡 => reset cards重設卡
 
+worksheet工作表=>show caption顯示說明文字=>會出現AI自動說明這些資料在做甚麼
+
+資料儀錶板也能藏起來
+他會藏到最左下角 很難發現 但點擊他的三角形就會回來
 
 03 06 save your changes
+"revert to save" is only available for .twb
+not for .twbx
 
+03 07 save your workbook as a pdf file(要錢)
+檔案=>存成pdf 
+show selections:顯示你點擊的東西
 
-
-03 07 save your workbook as a pdf file
-
-
-
-03 08 create a packaged workbook
-
-
+03 08 create a packaged workbook(要錢)
+file=>export packaged workbook=>save as .twbx
 
 03 09 export data to a csv file
+file條data資料=>你的檔名=>export as csv將資料匯出為csv
+
+03 10 export visualization to powerpoint(要錢)
+檔案=>export as powerpoint
+
+
+04. Create Custom Calculations and Fields
+04 01 Present Tableau operators and built-in functions
+
+
+0402 Create a calculated field
+
+
+0403 Create a calculated field on a shelf
 
 
 
-03 10 export visualization to powerpoint
+0404 Add a table calculation
 
 
 
-04 creating custom calculations and fields
-04 01 prsent tableau operators and built-in functions
+0405 Use level of detail expressions
 
 
+
+0406 Create calculations in dialog boxes
+
+5. Analyze Data
+Calculate averages, medians, minimums, and maximums
+Count occurrences and distinct items
+Display the Summary Card
+Calculate percentages within a table
+Forecast future values
+
+6. Sort and Filter Tableau Data
+Sort based on a field's values
+Create a nested sort
+Create a selection filter
+Create a wildcard filter
+Create a condition filter
+Create a top filter
+Edit, clear, and delete filters
+Filter data using parameters
+Edit and delete parameters
+
+7. Define Groups and Sets
+Define a group
+Define a group for other values
+Find members of a group
+Edit and delete groups
+Define a set
+Create summaries using sets
+Combine sets
+Edit and delete sets
+
+8. Develop and Pivot Crosstabs
+Develop a crosstab
+Unpivot a crosstab
+Add totals and subtotals to a crosstab
+
+9. Create Basic Visualizations
+Create column and stacked column charts
+Build line charts and area fill charts
+Develop pie charts
+Create scatter plots
+Identify data clusters
+Create histograms
+Summarize data using a smart histogram
+Make a treemap
+
+10. Format Tableau Visualizations
+Change the visual summary type
+Change the appearance of your data
+Resize a visualization
+Display a visualization in Presentation mode
+Create a highlight table
+Display a viz in a tooltip
+
+11. Annotate and Format Visualizations
+Annotate a visualization
+Format chart elements
+Change the color sequence in charts
+Add a trend line to a chart
+Add reference lines, distributions, and boxes
+
+12. Map Geographic Data
+Create a basic map
+Add and remove map layers
+Enhance map analysis using distance measurement tools
+Disable pan and zoom in maps
+Define custom regions
+
+13. Build Dashboards and Actions
+Build a dashboard
+Arrange and resize dashboard elements
+Define a filter action
+Define a highlight action
+Define a URL action
+
+14. Tableau 2019.2 Updates
+Show or hide sorting controls
+Create maps using vector images
+Quickly replace a worksheet in a dashboard
+Define parameter actions
+
+Conclusion
+Next steps
 
 
 
