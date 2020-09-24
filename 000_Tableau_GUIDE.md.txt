@@ -1,6 +1,9 @@
 連接excel => 拖曳 excel sheet 至中央
 =>下方點選工作表 => 即可進入 tableau 編輯圖表
 
+最常用的data:ex02 Red30TechData.xlsx
+練習資料表關聯:differentnames.xlsx
+
 01 01 download Tableau
 Support link => download Tableau
 
@@ -253,104 +256,584 @@ file條data資料=>你的檔名=>export as csv將資料匯出為csv
 04. Create Custom Calculations and Fields
 04 01 Present Tableau operators and built-in functions
 
++:addition(包括日期), 字串串接
+-:subtraction(包括日期), negation
+*:乘
+/:除
+%:餘數
+^:指數
+=:一個等於就是等於
+<>:不等於
+SUM, AVG, MIN, MAX
+STDEV=標準差
+ABS=絕對值
+CEILING=無條件四捨五入至整數 rounds a number up to the next integer(4.01會變成5)
+FLOOR=無條件四捨五入捨去至整數 (4.99會變4)
+ROUND=四捨五入
+
 
 0402 Create a calculated field
+計算數值
 
+file條
+analysis分析=>下方create calculated field建立導出欄位
+
+給他一個名字 total sales
+[Price]*[Quantity]
+左下角the calculation is valid
+按ok
+
+表格區就出現了一欄叫做 total sales
+
+若不滿意這個名字 就按左邊工作表
+三角形或右鍵=>rename 重新命名
+三角形或右鍵=>edit 修改公式
+三角形或右鍵=>delete 刪除
 
 0403 Create a calculated field on a shelf
+直接在欄裡做計算
 
+在中間欄的column裡面點兩下 打入
+[Price]*[Quantity]
+(不用打=)
 
+還可以拖到左方欄 新增一個欄
+並更名做total sales
+
+按esc以跳出選取
 
 0404 Add a table calculation
+新增表計算(須複習)
 
+檢查左方的mark標記卡
+會發現計算方式是sum
+按三角形
+找到quick table calculation
+選running total
+
+mark標記卡的sum
+按三角形
+找到edit table calculation 編輯表計算
+
+mark標記卡的sum
+按三角形
+找到clear table calculation清空表計算
+
+mark標記卡的sum
+按三角形
+按下add table calculation(新增表計算)
+出現對話框
+上方預設為difference from(差異)
+下拉選單有其他選項
+中間選擇table(down)
+最下方選擇related to=>previous
+打勾show calculation assistance
+
+mark標記卡的sum
+按三角形
+按下edit table calculation 編輯表計算
+編輯對話框
+上方選擇percent of total
+中間選擇table across
+最下方選擇related to=>previous
+打勾show calculation assistance
+
+mark標記卡的sum
+按三角形
+找到clear table calculation清空表計算
+data 回復原狀
 
 
 0405 Use level of detail expressions
+(可複習)
 
-
+difference from average
+在欄上打
+[order total] - {AVG(order total)}
 
 0406 Create calculations in dialog boxes
+(可複習filters)
+
+按中間的列=>三角形=>filter篩選條件
+出現對話框
+找到第三個tab=>condition tab條件
+選擇中間的by formula按公式
+鍵入
+[prod catagory] >="eBooks"
+數據就變了
+
+取消打勾by formula 數據又回來了
 
 5. Analyze Data
+0501
 Calculate averages, medians, minimums, and maximums
+計算中位數 平均 最大值和最小值
+
+選取資料拖到中間的shlf
+sales by region列rows shelf
+order total欄column shelf
+
+標記卡的sum total三角形
+=>measure(度量)
+=>按下average
+=>就變成average order total
+
+可以再把左方的order total拖進來
+(預設為sum)
+現在就有三欄了
+
+median中位數:
+=>measure(度量)
+=>按下中位數
+
+maximum 最大值
+=>measure(度量)
+=>按下最大值
+
+
+0502
 Count occurrences and distinct items
+(可複習)
+計算每個類別一共對應到幾個值
+例如每個prod catagory都對應到幾個銷售量
+
+analysis分析=>create calculation field
+命名為distinct products
+對話框裡面打入
+COUNTD([prod name])
+
+
+
+
+0503
 Display the Summary Card
+
+sales totals欄
+employee job title列
+
+file條=>worksheet工作表=>show summary
+右方出現summary卡
+
+ 簡單敘述了平均 中位數 最大最小值等
+
+上方toolbar條 可以sort data
+
+0504
 Calculate percentages within a table
+計算百分比
+例如計算每個職位對銷售額占的百分比
+
+file條
+Analysis=>percentage of=>column
+
+file條
+Analysis=>percentage of=>pane(意思是表中央以粗直線分割的每個版面)
+
+file條
+Analysis=>percentage of=>none 清除
+
+0505
 Forecast future values
+(可複習)
+
+先讓中間出現折線圖
+
+左方資料面板
+有analytics分析面板 切換到analytics分析面板
+Model模型=>forecast趨勢預測
+拖到中間圖
+
+圖會出現預測以及信賴區間
+
+中間欄的三角形=>more更多=>custom自訂
+會出現一個對話框
+create a custom date for this field
+選擇date value
+
 
 6. Sort and Filter Tableau Data
+0601
 Sort based on a field's values
-Create a nested sort
-Create a selection filter
+
+toolbar條=>工具列有遞增遞減排序的按鈕
+
+或是你按中間欄/列的三角形選單
+=>也有sort按鈕
+會出現詳細的對話框
+
+詳細對話框可以設定依照什麼來排序
+sort by field 設定依照欄位名稱排序
+(可依照字母 欄位數值 巢狀 等排序法)
+=>descending
+field name=>鍵入你要依照他排序的欄位名稱例如
+number of records
+aggregation=>設定為sum (其他有中位數等等排序法)
+
+就算欄位沒出現在上面 
+依然可以用沒拖進去的欄位來排序
+
+清除排序
+=>中間欄三角形選單=>clear sort清除
+
+0602 create a multilevel sort
+多項的排序 有兩個欄位以上的排序
+
+範例
+欄位sales region 欄位2 prod category
+對應到數值sales
+
+我們現在想照prod category來排序
+欄位sales region不動
+=>去欄位2 prod category 三角形選單
+按sort排序
+選擇nested巢狀/descending遞減/field name欄位名稱:order total/aggregation彙總:sum
+
+0603
+Create a selection filter篩選
+
+中間欄位三角形(例如prod category)
+=>filter
+出現對話框
+可以勾選你想看到的項目
+exclude是相反 勾選你不想看到的項目
+
+0604
 Create a wildcard filter
+依照包含的字詞來篩選
+
+中間欄位三角形=>filter篩選
+出現對話框
+對話框第二個tab wildcard tab萬用字元
+輸入字串
+選項有
+contains/start with/end with/exact match
+還有exclude(排除) 可以選 (變成不包含)
+
+按clear 清除
+則data回來
+
+0605
 Create a condition filter
+條件篩選 例如只傳回銷售值低於多少的資料
+
+中間欄位三角形=>filter篩選
+出現對話框
+第三個condition tab(條件)
+
+選擇by field
+範例中
+Quantity欄位已選取 
+因為你是點quantity欄位的欄位三角形
+接下來可以設定大於小於
+按下load button 會先給最大值和最小值
+讓我們知道在看哪個欄位
+
+若要清除篩選
+就點最上面的none 
+filter就會被清除
+
+0606
 Create a top filter
+選前幾高或前幾低的欄位
+
+本範例中央是一個tree map
+
+萬一欄位上沒東西怎麼辦
+從左邊把要分析的欄位拖到左邊的 filter卡(篩選條件卡)
+就會開啟 filter對話框
+
+按第四個 top tab
+選取 by field
+選top 鍵入3
+選order total (欄位自訂)
+選sum
+
+會發現tree map
+剩下三個order total (欄位自訂)
+最高的region
+
+若是選bottom鍵入2
+tree map剩下兩個order total (欄位自訂)
+最低的region
+
+要清除就從左邊把要分析的欄位拖到左邊的 filter卡
+按下non即可清除
+
+0607
 Edit, clear, and delete filters
+
+篩選條件卡 => 三角形選單
+編輯篩選條件(選none來清除篩選)
+
+或是上方的欄位或列=>三角形選單=>編輯篩選條件(選none來清除篩選)
+
+清除全部的篩選條件
+workbook工作表=>clear清除=>filters篩選條件
+會清除掉全部的篩選條件
+
+一個個清除=>篩選條件卡=>將要清除的篩選條件
+拖曳到左方放資料的
+dimension tab
+拖掉這個tab就會清除篩選條件卡
+
+0608
+Show or hide sorting controls
+
+中間資料圖表也有欄位名稱 上方有三角形
+跟excel一樣 可以直接點欄位來建立篩選
+
+如果不要或要這個功能就去
+workbook=>show sort controls(顯示排序控制項)
+=>關閉或開啟
+
+0609
 Filter data using parameters
+(可複習)(較少用)(免費版不太一樣)
+parameter based filter
+
+去左方dimension tab的資料
+找到order total欄位
+右鍵=>create建立=>parameter參數
+
+給這個參數一個名字叫做parameter filter
+datatype:integer (float改成integer)
+current value:4
+allowable values:選range
+range of value:min:4 改成2
+max:83885 改成7
+step size:(若是2就會是1 3 5 7)此處不動
+
+左邊data出現新欄位:
+你的parameter filter
+
+去左方dimension tab的資料
+找到order total欄位
+拖進篩選卡
+對話框的第四個tab 建立top filter
+選by field
+選top 
+選你的parameter filter
+
+左邊data
+選你的parameter filter
+右鍵
+show parameter control顯示參數
+
+右邊會出現面板
+拖曳即可決定你的tree map有幾欄
+本範例會是2到7欄
+(免費版略有不同)
+
+0610
 Edit and delete parameters
+(較少用 可複習)(免費版略有不同)
+
+承上個範例
+左邊data
+你的parameter filter
+右鍵編輯parameter
+右鍵show parameter control顯示參數
+也可以右鍵delete
 
 7. Define Groups and Sets
+0701
 Define a group
+組成群組 例如一個公司併購了另一個
+
+去中間資料表位
+選擇A公司 ctrl B公司
+會跳出工具箱 
+按工具箱裡面的group members
+組成群組
+
+
+0702
 Define a group for other values
+
+
+0703
 Find members of a group
+
+
+0704
 Edit and delete groups
+
+
+0705
 Define a set
+
+
+0706
 Create summaries using sets
+
+
+0707
 Combine sets
+
+
+0708
 Edit and delete sets
 
 8. Develop and Pivot Crosstabs
+0801
 Develop a crosstab
+
+
+0802
 Unpivot a crosstab
+
+
+0803
 Add totals and subtotals to a crosstab
 
+
+
+
 9. Create Basic Visualizations
+0901
 Create column and stacked column charts
+
+
+0902
 Build line charts and area fill charts
+
+
+0903
 Develop pie charts
+
+
+0904
 Create scatter plots
+
+
+0905
 Identify data clusters
+
+
+0906
 Create histograms
+
+
+0907
 Summarize data using a smart histogram
+
+
+0908
 Make a treemap
 
+
+
+
 10. Format Tableau Visualizations
+1001
 Change the visual summary type
+
+
+1002
 Change the appearance of your data
+
+
+1003
 Resize a visualization
+
+
+1004
 Display a visualization in Presentation mode
+
+
+1005
 Create a highlight table
+
+
+1006
 Display a viz in a tooltip
 
 11. Annotate and Format Visualizations
+1101
 Annotate a visualization
+
+
+1102
 Format chart elements
-Change the color sequence in charts
+
+
+1103
 Add a trend line to a chart
+
+
+1104
 Add reference lines, distributions, and boxes
 
 12. Map Geographic Data
+1201
 Create a basic map
+
+
+1202
 Add and remove map layers
-Enhance map analysis using distance measurement tools
+
+
+1203
+Enhance map analysis using distance 
+
+
+
+1204
+measurement tools
+
+
+1205
 Disable pan and zoom in maps
+
+
+1206
 Define custom regions
 
 13. Build Dashboards and Actions
+1301
 Build a dashboard
+
+
+1302
 Arrange and resize dashboard elements
+
+
+1303
 Define a filter action
+
+
+1304
 Define a highlight action
+
+
+1305
 Define a URL action
 
+
+
+
 14. Tableau 2019.2 Updates
+1401
 Show or hide sorting controls
+
+
+1402
 Create maps using vector images
+
+
+1403
 Quickly replace a worksheet in a dashboard
+
+
+1404
 Define parameter actions
 
+
+
+15
 Conclusion
 Next steps
 
 
-
+Source:
+Tableau Essential Training (2020.1)
