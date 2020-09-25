@@ -397,6 +397,6 @@ Get data => excel => 開啟excel1
 2. first row as header 要打勾
 
 
-Source: Power BI Essential Training
+Source: Power BI EssTraining
 
 
