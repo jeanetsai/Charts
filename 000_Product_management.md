@@ -12,7 +12,7 @@
 07.Conceptualizing the Solution
 產品草稿
 08.Metrics for Product Managers Defining Success and Measuring Results
-量測結果的方法
+量測結果(KPIs)
 09.Building the Product Project Management for PMs
 專案管理
 10.Working with People and Stakeholders
@@ -524,9 +524,8 @@ Location: any busy downtown city
 
 07.Conceptualizing the Solution
 07.71.Introduction to Wireframing
-
-
-
+Low-fidelity wireframe
+(not a lot of detail, not very precise)
 
 07.72.Wireframe, Mockup, Prototype
 
@@ -557,16 +556,84 @@ Location: any busy downtown city
 
 08.Metrics for Product Managers Defining Success and Measuring Results
 08.78.Introduction to metrics
+Metrics frameworks
 
+Feedback loops:愈快得到反饋 愈容易管理
 
+KPIs(Key Performance Indicator)~=metrics
+
+Metrics Examples:
+monthly active users
+returning users
+churn users
+app store reviews
+FB and Twitter posts
+
+<DEFINE UR SUCCESS>
 
 08.79.Real-life examples of metrics
 
+Examples of metrics
+Twitter:
+total new users per month/week
+monthly/daily active users
+activated users
 
+Engagement Metrics:
+multiple logins per day
+time spent
+num of tweets sent
+Avg num of likes, re-tweets and follows
+num messages sent
+
+Youtube:
+monthly/daily active users
+total new users
+activated users
+
+Engagement Metrics:
+video views
+average viewing time(at least 30s)
+
+Facebook:
+Engagement Metrics:
+position clicks
+messages sent
+time spent on site
+average num of likes
 
 08.80.Metrics of all kinds
+1. Growth & Activation
+2. Engagement
+3. Retention
+4. User Happiness
+5. Revenue
 
+1. Growth & Activation
+total new users
+new users by source
+active users
 
+2. Engagement
+behaviors match commpany goal
+comments per day
+watch 30s of youtube videos
+
+3. Retention
+who's coming back
+returning users
+
+4. User Happiness
+customer complaints
+appstore ratings
+surveys
+(ratings <7 = bad)
+
+5. Revenue
+LTV: Life Time Value
+CAC/CCA: Cost of Customer Aquisition 
+MRR: Monthly Recurring Revenue
+ARR: Annualy Recurring Revenue
 
 08.81.How to pick good metrics
 
