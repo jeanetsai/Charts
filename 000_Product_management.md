@@ -529,27 +529,62 @@ MVP:測試看看顧客要不要這個東西
 06.51.Follow along Identify the assumption for Zirx
 
 Zirx 代客泊車公司
-
-
+假設們的範例:
+1. 停車位不夠
+2. 找garage很難
+3. garage很貴
+4. 使用者在意價錢和方便性
+5. 使用者不在意速度
+6. 對於停在garage不太滿意
+7. 很多人都有smart phone
+8. 在開車時可以使用smart phone
+9. 顧客願意使用代客泊車
+10. 使用他的代客泊車是安全的
 
 06.52.Find the riskiest assumption of them all
+注意風險最大的假設
+注意哪個假設如果是錯的 會帶來最大的影響
 
-
+1. 我假設我的顧客有XYZ等問題
+2. ___對我的顧客是重要的
+3. ___will pay for it 會付錢
+4. no satisfactory substitutes
+要找出有什麼替代方案 確保競爭不是問題
 
 06.53.Make decisions The riskdifficulty square
 
+Which assumption you should test first?
+你應該先驗證哪個假設? 找最risky者
+如果他不成立其他都不成立者
 
-
+Risk(假設的風險), Difficulty(驗證假設的困難度)
+驗證假設的順序:(風險大的先)
+1. 高風險低困難
+2. 高風險高困難
+3. 低風險低困難
+4. 低風險高困難
 
 06.54.What is a hypothesis
 
-
-
+找出以下問題:
+Who is unsatisfied?
+How unsatisfied?
+Why are they unsatisfied?
 
 06.55.Put together a hypothesis
+assumption和hypothesis不同之處
+A hypothesis is actionable
 
+Target group
+Potential problem
+Action
+Expected outcome
 
-
+回答以下問題
+We believe __ will ___ because ___.
+If we __(action), we believe __ will
+__ because __.
+We believe __ has a ___(problem) because __. If we __, this __ metric will improve.
 
 
 06.56.Follow along Identify Zirx's hypothesis
@@ -563,67 +598,137 @@ Location: any busy downtown city
 
 
 06.57.What's a minimum criterion for success
+MVP的三個outcome:
+1. 假設失敗了 這產品不用做
+2. 假設成功了
+3. 中間模糊地帶
 
+Minimum Criterion for Success
+(MCS)
 
+Reward metrics 舉例
+- increased revenue
+- time spent on page
+- num of shares
+- increased satisfaction
+- num of likes
+- conversion rate
+- open rate (email)
+- customer LTV (life time value)
+
+Cost
+- developer's time
+- your time
+- other co-workers time
+- labor wages
+- advertising costs
+- brand effect
+- legacy issues
+- opportunity costs
+
+算一下 要 reward > cost 才做
 
 06.58.Create a formula for your MCS
-
-
-
+Minimum Criterion for Success
+(MCS)
+開發是需要成本的 包括薪資和機會成本
+用一個metric就好
 
 06.59.Optional Make the calculation for startups
 
-
+validation metric:
+- % of ppl that sign up
+- % of ppl that share your posts
+- avg purchase price
+- num of ppl that open your email
 
 06.60.MVP techniques Emails, shadows, 404, and coming soon
-
-
-
+amazon did this
 
 06.61.More MVP techniques Explainer, fake landing page, and pitch experiments
 
+Explainer MVP
+實驗影片
+frame.io
 
+pitch experiment
+landing page
 
-
+Project management tools:
+basecamp
+asana
+trello
 
 06.62.Even more MVP techniques Concierge, piecemeal, and Wizard of Oz
 
+tools:
+weebly
+wix
+squarespace
 
+form tools:
+firnstack
+typeform
+jotform
 
+tools:
+twilio
+recurly (manage subscriptions)
 
 06.63.Email based MVPs
 
-
+email tools:
+canva
 
 06.64.Shadow buttons
 
-
+Put thank you 
+Limit the users that see it
 
 06.65.404 and coming soon MVPs
 
+out of stock
+well designed 404 page
+Limit the users that see it
 
+tools:
+launchrock
+kickofflabs
 
 06.66.Explainer videos
+tools:
+wistia (track video data)
 
-
+tools:
+powtoon
+goanimate
 
 06.67.Piecemeal MVPs
 
+Online forms:
+typeform
+google form
+zoho
 
-
+zapier
+ifttt
 
 06.68.Concierge service MVPs
-
-
+Conciˋerge
+no fake buttons
+time consuming
 
 06.69.Optional How do big companies think about MVP experiments
 
-
-
+Brand > Resources
+"one feature MVP"
 
 06.70.Evaluating results and learning from them
 
-
+1. come up with idea
+2. design experiment
+3. set up expectations
+4. running a test
 
 07.Conceptualizing the Solution
 07.71.Introduction to Wireframing
@@ -662,17 +767,17 @@ What is the point?
 What should the users be able to do?
 
 07.75.Using POP
-
-
+免費工具
+popapp.in
+隨便畫畫就能做出APP草稿
+賣點是超連結建立很快
 
 07.76.Intro to Balsamiq
-
-
+Balsamiq.com
+畫wireframe
 
 07.77.Building YouTube in Balsamiq
-
-
-
+done
 
 08.Metrics for Product Managers Defining Success and Measuring Results
 08.78.Introduction to metrics
