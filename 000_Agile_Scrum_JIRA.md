@@ -506,9 +506,11 @@ Estimation of backlog items
 
 
 08-01 - Scrum certifications
+Certified ScrumMaster (CSM)
+from scrumalliance.org
 
-
-
+Professional Scrum Master (PSM)
+scrum.org
 
 08-02 - Certified ScrumMaster
 
