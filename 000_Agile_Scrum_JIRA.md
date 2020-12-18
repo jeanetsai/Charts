@@ -521,9 +521,9 @@ scrum.org
 08-04 - Certification advice
 
 
-09-01 - Next steps
+09-01 - Next
 scrum.org
 scrumalliance.org forums
 Scrum: Advanced
 
-Source:Agile Software Development- Scrum for Developers
+Source: Agile Software Development Scrum for Developers
