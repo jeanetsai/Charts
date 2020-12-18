@@ -461,9 +461,4 @@ document all thoughts
 share with management and internal stakeholders
 archive for future reference and projects
 
-058 Goodbye
-
-
-
-
-Source: PM for creative projects
+Source: PM 4 creative projects
