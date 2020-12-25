@@ -532,15 +532,33 @@ Age/Gender/Language
 =>設定廣告內容
 
 45.Marketing with Twitter
-<Skipped, Walkthrough>
+<Walkthrough>
+Moments: News around you
+#hashtags
+#lists of your keywords
 
+<buffer.com>
+schedule your content on twitter
+
+<hootsuite.com> not free
+engate them all on 1 platform
 
 46.Marketing with LinkedIn
-<Skipped, Walkthrough>
+<Walkthrough>
+Company page
+News feed
 
+Work=>Create a company page
+=>enter info=>create page
+
+Updates=>create posts
+
+Work=>Advertise=>Create ad
 
 47.Marketing with Pinterest
-<Skipped, Walkthrough>
+<Walkthrough>
+business.pinterest.com
+ads.pinterest.com
 
 
 9.8. Video Marketing
@@ -553,21 +571,54 @@ Create a commercial
 
 
 49.Getting started with video marketing
-<Skipped>
+<YouTube>
+點右上方頭像
+Use YouTube as...
+=>Use a business or other name
+=>Google Brand Accounts
+=>Brand Account Name
+=>Create
+=>YouTube channel setup
+=>Add channel art (cover photo), save
+=>點中間頭像=>Edit 頭像圖片
+=>About tab, channel description, email, link (SEO)
+=>Add section, content: popular uploads.../layout
 
+右上方頭像
+Creater studio
+=>manage & upload
 
-
+左方video manager
+=>Add title/description...
 
 50.Creating compelling content
-<Skipped>
 
-
-
+What makes you nuique?
+What are you proud of?
+What do you highlight?
+Include a call to action
+Leverage annotations
 
 51.Promoting videos on YouTube
-<Skipped>
-
-
+<重要walkthrough>
+先做好你的廣告影片上傳YouTube
+copy其網址
+Google AdWords account
+=>campaign=>new campaign
+=>VIDEO 
+=>Goal: Brand awareness and reach, standard awareness
+=>continue
+=>campaign name, budget, Bidding=>CPV:cost per view
+只有在使用者看了30秒才計算一次view, 或是與 ad 互動
+max CPV:例如0.25
+設定PEOPLE we want to target
+設定CONTENT例如keywords, topics, placements
+Create the ad itself
+貼上你的youtube廣告影片網址
+in-stream ad(在影片裡的廣告 必需要短例如30秒左右)
+video discovery ad(搜尋youtube時出現的廣告 可以比較長的影片)
+URLs
+=>save & continue
 
 
 10.9. Email Marketing
