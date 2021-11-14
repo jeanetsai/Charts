@@ -16,6 +16,107 @@ A link, a button, a div => button
 Never auto play content on websites
 Never use colors to distinguish things alone
 
+01_03-AccUx
+<UX Team>
+Representation for ppl with disabilities, in interviews, talk-aloud sessions, focus groups, usability testing, and focused accessibility testing
+<Content Strategists>
+What kind of content, clue or words? What will happen if I click on this link? Work with ppl with disabilities to discover their thought process and determine key clues to help them navigate and perform actions
+
+<Information Architect>
+They have their terminology. Know the labels and terminology for the subject area.
+
+<Interaction Designer>
+Create wireframes and prototypes, keeping those with disabilities in mind, specifying flows and source order where needed
+
+02_01-Flow
+Maintain a good flow
+
+02_02-Visual
+Should express in a non visual way
+
+02_03-Proximity
+info and tools should be together
+
+02_04-Expectations
+how to let them know there are dialogue boxes
+
+02_05-Perfect
+Ask customers
+Observe how they work
+
+02_06-Memory
+out of sight, out of mind
+Create reminders
+
+03_01-Voice
+Dragon speech
+voice command
+
+03_02-Magnifiers
+ppl with low vision
+
+03_03-Screen
+Screen readers
+
+03_04-Hardware
+put urself in the shoes
+
+04_01-People
+motivation, needs and goals
+
+04_02-VisionIssues
+
+Make sure it works will with a keyboard, they cannot see the cursors
+
+Create text-based content
+
+04_03-HearingIssues
+Provide captions
+
+04_04-MobilityIssues
+Mouse grid
+
+04_05-Cognitive
+Memory
+Problem Solving
+Attention and focus
+Literacy and reading
+Visual comprehension
+Verbal comprehension
+
+1. Design for forgetfulness
+2. Write with plain language
+3. Provide predictability in your interface
+
+04_06-Aging
+everyone's future
+
+05_01-Content
+Does the content create clear expectations at all levels?
+Is there any specific content that people with disabilities need?
+Are there any specific needs for customer service or communication for people with disabilities?
+
+05_02-Layout
+Low vision users
+
+05_03-VisualDesign
+color contrast
+
+05_04-Interaction
+Allow multiple methods of achieveing the same goal
+
+05_05-UserResearch
+Listen
+Observe
+Discuss
+Research
+
+Include ppl with disabilities
+
+06_01-NextSteps
+Web accessibility principles
+webaim.org
+
 II. UX Foundations - Interaction Design
 
 002 What is interaction design
