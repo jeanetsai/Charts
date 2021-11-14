@@ -1,0 +1,1062 @@
+I. Foundations of UX - Accessibility
+II. UX Foundations - Interaction Design
+III. UX Foundations - Style Guides and Design
+IV. UX Foundations - Multidevice Design
+V. UX Foundations - Content Strategy
+
+I. Foundations of UX - Accessibility.
+01_01 People with disabilities
+Visual, Auditory, Mobility & Dexterity, Cognitive
+UX = Overall satisfaction
+Usability = ease of every interaction
+Accessibility = ease of every interaction for someone with a disability
+
+01_02-Views
+A link, a button, a div => button
+Never auto play content on websites
+Never use colors to distinguish things alone
+
+II. UX Foundations - Interaction Design
+
+002 What is interaction design
+Visual design
+Interaction design
+User research
+Content strategy
+Product management
+Development
+
+Interaction design (IxD)
+Defines the structure and behavior of interactive systems
+
+001 Project types and deliverables
+Surveyes
+Interview guides
+Scenatios and personas
+Structural diagrams
+Site and product maps
+Sketches
+
+<Deliverables>
+Content inventories
+Wireframes
+Mocks or comps
+Flow diagrams
+Journey maps
+Prototypes
+Functional specifications
+Usability reviews
+Accessibility reviews
+Analytics reports
+... and more
+
+002 Technical and software skills
+
+Tools: balsamiq
+prototyping: proto.io
+
+003 Related disciplines and fields of study
+People+tech+design
+
+004 Resources and communities
+IxDA
+AIGA
+IAI
+UPA
+ACM SIGCHI
+
+<kws>
+interaction design
+information design
+user experience
+UX design
+design patterns
+usr interface design
+information architecture
+usability
+accessibility
+
+03 2 A Model of Psychology and Interaction Design
+001 Why psychology
+Discover (study and insights)
+Craft (design and prototype)
+Deliver (develop and measure)
+Improve (iterate and optimize)
+
+<Discover>
+identify objective
+quantitative data
+time. num of errors
+Measure, observe, ask
+Frame the problem
+
+<Craft>
+design
+prototype
+iterate
+
+002 Introducing the interaction design model
+
+perceive
+predict
+interact
+feedback
+learn
+practice
+
+003 Context
+<who is the person>
+description, experience, expectations, indivisual or group
+<where when>
+location, situation, time, public or private, be able to focus or interrupted
+<what objects and how>
+objects, devices, tools, purpose, conjunction, alternatives, efficacy (efficient or not)
+
+Context influences expectations and behavior
+
+Personas, stories, scenarios, and journeys help us describe context
+
+The best designs emerge when we understand the bigger picture in a broader context over time
+
+
+004 Goals
+Productivity / Creativity & Play
+1. objectives
+outcomes/achievements/end states
+2. importance
+value/essential/necessary/optional/elective
+3. urgency
+priority/critical/compelling/timing
+
+Productivity tools: focus, efficacy, efficiency
+Games: exploration, achievement, competition
+
+04 3 Introductory Psychology
+001 Sensation
+Perception (vision, hearing, touch, proprioception)
+we only pay attention to a small, select amount
+
+<vision>
+color vision
+yellow/blue
+red/green
+Use multiple cues, never use color alone
+Use Labels, shapes, images
+No color combinations
+
+<Hearing>
+Sound alone is not enough
+visual messages+vibrations
+
+<Touch>
+movement, pressure
+temperation, vibration, texture, pressure
+
+<Haptic Perception>
+Active exploration using:
+size
+weight
+contour
+surface
+material
+temperature
+consistency/solidity
+
+motion:tracing our fingers along contours and over the surface to sense texture, shape, and size
+pressure:pressing or squesszing to sense consistency and structure
+enclosure:wrapping our hands around an object to sense shape, size and weight
+
+<Proprioception>
+An internal sense providing information about the relative position and movement of our body
+spatial gestures
+spatial movement
+shake, rotate, squeeze, gestures
+
+002 Perception
+Perception happens in our brain
+
+
+<Perceptual constancy>
+Environment conditions change all around us, yet we still perceive the world and the things in it with great consitency.
+Shape
+Lightness
+Color
+Distance
+Size
+Location
+Timbre (quality of sound)
+
+EX:different typography
+
+<Simultaneous Contrast>
+same color looks different in different backgounds
+
+003 Gestalt principles[USEFUL!!!]
+<Phi Effect>
+a series of blinking lights
+creates the illusion of motion
+
+<Gestalt>
+Gestalt = shape or form
+We perceive the world as meaningful and complete 
+objects, not a series of independent parts
+
+<Gestalt Laws>
+Figure-ground
+Simplicity
+Proximity
+Similarity
+Common fate
+Closure
+Continuity
+Symmetry
+
+[Figure-ground]
+[Simplicity]
+[Proximity] nearby perceived as a group
+[Similarity] similar belongs together
+[common fate] objects move together belongs together
+
+004 Affordances
+<Affordances>
+Physical chars of objects make possible what we are able to do
+We recognize when we are able to interact
+Affordances are relative to the indivisual and their ability to interact
+Affordance do not require conscious attention and thought
+Affordances arise from our intrinsic understanding of our physical relationship with the world around us
+
+<Perceived Affordances>
+Perceived affordances arise when a digital representation has similarities with an actual physical object
+A physical button has affordances, a digital interface button has erceived affordances
+
+以模擬的面板模擬3D button
+<Perceived affordances and digital interfaces>
+Shadows
+Perspective
+Overlap or layered
+Blur (for distance)
+Scale (for distance)
+
+<Easier with Multiple Signals>
+Interactions are easier to learn when we include multiple signals, including perceived affordances
+
+005 Motivation
+<Motivation>
+Motivation is the force that initiates, sustains, and directs behavior
+People
+Situation
+Needs
+Objective
+Importance
+Urgency
+
+<Locus of control>
+External > Extrinsic motivation
+Internal > Intrinsic motivation
+Try to understand what will intrinsically motivate people,
+and do not rely on rewards alone
+
+Theory1
+<Achievement>Problem solving and learning
+<Affiliation>Social relationships
+<Power>Influencing others
+
+Theory2
+<Expectancy>
+If i put forth the effort necessary, then I will perform well
+<Instrumentality>
+If I perform well, then I will receive an outcome
+<Valence>
+If I value the outcome, then I will be motivated to put forth the effort necessary
+
+<Low Motivation Occurs When>
+We expect to fail or perform poorly
+There will be no outcome, or the outcome is independent of our effort
+We do not value the outcome or results
+
+Theory3
+<Existence>basic survival and safety
+<Relatedness>social relationships
+<Growth>personal development and self-esteem
+
+006 Attention and memory
+<Factors of Cognition>
+[Attention]
+[Cognitive load]
+[Memory]Encoding, recall, recognition
+[Pattern recognition]
+[Reasoning and logic]problem-solving, decision-making
+[Concept formation]
+Associations, mental models
+
+<3 stages of memory>
+[Sensory store]
+[Working]
+[Long-term]
+
+<Long-term Memory Systems>
+[Declaraive]
+Things we know (knowledge)
+Semantic - facts
+Episodic - events
+Easy to state and describe information we know
+[Procedural]
+Things we can do (skills)
+Easier to show how to perform an action or task than to describe how to do it
+
+<How to retrieve info>
+[Recall]retrieve it
+[Recognition][easier]make a selection from a set of choices by comparing what we perceive with what we remember
+
+[Recognition is easier]
+Show info and functionality when it is needed
+Put information and functionality where people expect to find it
+Present information in meaningful ways
+
+[Visual Memory is Powerful]
+Memory for images is better than our memory for words
+
+<Pattern Recognition>
+The tendency (and ability) see patterns and to make connections between similar and related things
+
+007 Reasoning and logic
+<Problem-solving methods>
+[Trial-and-error]
+Each step should move us closer to the solution or our goals
+[Difference reduction]
+[Subgoal decomposition]
+Breaks down to smaller manageable steps
+[Analogy]Recognize that a new problem is similar to previously solved problem and apply the same methods
+[Transformation]Solve the problem by transforming it into another format or structure that clarifies the problem
+[Algorithms and heuristics]
+heuristics: rough estimate to the value
+
+<Decision-making>
+[Rational]
+Compare and evaluate all options. Do
+not asuume people are rational. Incorrect info, social pressure and strong emotions can mislead decisions.
+[Optimal]Make choices that maximize gains and minimize losses
+[Satisficing]Consider key info and make a decision that is "good enough."
+[Pain vs. value]Compare the value of the goal or outcome to the effor necessary to achieve it and choose options where the value is greater than the effort. Z>B or B>Z
+
+008 Mental models
+<Mental Models>
+Out thoughts and expectations about how things work in the real world. They influence our behavior, decisions, and attitudes
+
+<Types of Models>
+[Mental model]
+Prior exp and expectations of how a product whould work, reside in the minds of the ppl who will use the product
+[Conceptual model]
+Prior exps, plans, and design intents for how a product should work, reside in the minds of the product creators
+[System model]
+How the product actually works, which is often more complicated than what people interact with, because interfaces are designed to conceal the complexity
+
+<Good mental models simplify>
+We must understand how something really works (the system model) so that we can design a product (the conceptual model) that is easy for people to understand and use (the mental model)
+
+009 Cognitive load
+<Information Overload>
+
+<Cognitive Friction>
+Slows us down
+When things change unexpectedly
+When things look familiar but work in different ways
+
+<Cohesiveness reduces cognitive friction>
+
+<Reducing Cognitive Load>
+Base smart defaults on context, usage patterns, and past behavior
+Only use smart defaults when they are likely to be correct
+Make smart defaults easy to change
+
+<Reducing Cognitive Friction>
+Understand the mental models
+Provide meaningful information
+Keep people focused on the outcome or goal
+Simplify the interactions
+Provide help and instructions
+
+010 Theories of emotion
+<Emotions>
+Subjective experiences are difficult to define and measure
+Emotions may vary by individual, context, and culture
+The absence of negative exps is not enough to create positive emotions
+增加正向經驗 減少負向經驗
+
+<multiple Theories of Emotion>
+Anger
+Disgust
+Fear
+Sadness
+Happiness
+Surprise
+
+Happy + surprise = joy
+Anger + fear = frustration
+
+011 Designing for delight
+<Delight>
+Surprise only works once
+
+<Levels of Delight>
+[Surface delight]beautiful design, great voices and tones...
+comes from the chars of the product 
+we perceive and experiences
+[Deep delight]emerges when products are frictionless, effortless, easy and meaningful
+=>Strive to create products that are deeply delightful
+
+<Creating Delight>
+[Pleasure] arises from humor, uniqueness, personality, beauty, simplicity, and the ability to anticipate needs
+[Flow] arises from ease of use, efficiency, immersiveness, automation, and when ppl feel empowred
+[Meaning] creates delight with purpose, value, connectedness, relevance, and personal engagement with compassion and care
+
+<Hierarchy of product quality>
+pleasurable (Delight)
+Ease of Use
+Reliable & Dependable
+Functional
+
+Delight should be on par with functionaliry, reliability, and usability
+
+012 Empathy
+
+[Empathy] is the ability to understand and identify with another person's context, emotions, goals, and motivations
+
+[Fostering Empathy]
+Spend time with the ppl who use your product
+Develop good listening and observation skills
+Collect objective data about how ur product is actually being used
+Remove yourself from the product decisions
+Practice with your colleagues and help each other improve
+Employ user-centered design methods
+
+013 Learning behaviors
+[Stimulus] is a signals
+[Response] is a behavior
+[Consequence] is an outcome
+[Conditioning] is learning
+[Association] is connecting
+
+<3 Theories of Learned Behavior>
+[Classical Conditioning]
+We learn to assiciate exps that occur together in space and/or time
+[Operant Conditioning]
+We learn to behave to seek reward and avoid punishment
+[Observational Learning]
+We learn by observing others then imitating them
+
+014 Classical conditioning
+Social network 條件制約
+
+015 Operant conditioning
+[=instrumental conditioning]
+Behaviors are performed in exchange for rewards
+
+<Operant conditioning>
+A stimulus (or signal) indicates that a behavior may be performed
+Once the behavior is performed, an outcome (or consequence) results
+
+Signal => Behavior => Outcome/Rewards/Punishment
+see messy room=>clean=>get rewards
+
+Avoid punishment
+Use Reinforcement
+
+Reinforcement Schedules
+Fixed time: every 2 hours
+Fixed count: every 10 times
+Variable: about 2 or 3 hours
+Variable: about 10-20 times
+
+Not all rewards have the same value for everyone
+
+[Selecting Rewards]
+Attention, recognition, and praise are social reinforcers
+Money, credits, and points are financial reinforcers
+
+016 Social learning theory
+We may learn from watching others or the environment around us
+
+<Three types of modeling>
+[Live models]mentorship, a person 
+demonstrates the desired behavior,
+we observe directly, then we
+imitate their behavior
+[Direct instruction]They tell us what to do, A person describes the desired behavior in detail and provices instructions to us about how to do it, then we perform the behavior as described
+[Symbolic instruction]The model is not a person but instruction materials, Modelling occurs through media, including the web, written and/or illustrated info, video, and audio. We view the media then perform the behavior as instructed
+
+017 Using learned behavior
+Past exps influence future behavior
+
+
+05 4 The Interaction Design Model
+001 Overview of the IxD model
+
+Context>Goals>productivity+creativity>perception+emotion+motivation+cognition>Behavior
+
+002 Perceive
+Remember=>Perceive>Predict>Interact>
+Feedback>Learn>Practice>Perceive...
+
+Perceive 要告訴使用者哪裡可以互動
+button design, motion, shadows ...
+
+003 Predict
+High confidence+High perceivability=Interact
+High confidence+Low perceivability=Moderate but trial and error
+High confidence+High perceivability=Low probability of interaction
+High confidence+High perceivability=Abandon
+
+<Deciding among Options>
+When there are different ways to complete a task, people decide based on:
+Context
+Goal
+Prior Experience
+Perceivability
+Confidence
+
+004 Feedback
+<Three Stages of Feedback>
+[Interaction acknowledged]
+An immediate response to a person's interaction and request. The product acknowledges that they have done something
+[Request in progress] Interim feedback, indicate progress or status
+[Results of interaction] The actual result or output of the product in response to a person's request
+
+<Initial Feedback>
+Techniques to acknowledge interactions:
+Hovers, rollovers, and down states
+Transitions for size, rotation, and location
+Modal layers and dialogs appear or disappear
+Sound and vibration
+
+<Interim feedback>
+Techniques to indicate status and progress:
+De-activated states with status messages (e.g., a button that changes from "Get file" to "downloading")
+Progress indicators for time, amount, or simply ongoing
+(e.g., loading bar, % complete, time remaining, or just a continuous spinner)
+
+<Final Feedback>
+Final feedback takes many forms and varies based on the product and the person's request
+Navigate to a new page or screen
+Modal layers and dialogs
+Update content on the current page
+Control media playback
+Control game play
+Error messages
+
+<Ambient feedback>
+Subtle, continuous changes to the interface that provide useful information at a glance
+It usually conveys information about a single variable in a simple way
+
+<Anticipatory feedback>
+Information is provided before a person interacts
+to help them understand what the outcomes may be
+Improves the accuracy of predictions
+Helps people avoid interactions that are not likely to help them achieve their goals
+
+<Making meaning of feedback>
+Is the outcome meaningful?
+Does the outcome match the prediction?
+Does the outcome help the person get closer to the goal?
+
+<Emotions feedback button/survey>
+
+005 Learn
+<Learning to interact>
+[Association] We assiciate things that occur together in space and time
+[Reinforcement] Good outcomes rewards interaction, bad outcomes decrease interaction
+[Observation] We imitate the behavior of other ppl, we learn from examples, tutorials, and videos
+
+<Intuitive Design>
+Only need to use it once to learn
+"intuitive" means that it is easy to perceive, accurately predict, interact with, learn from meaningful feedback, and remember how to use a product with just a single experience
+
+<What might go wrong?>
+[Complexity] require more practice and effort to learn
+[Infrequent use] fewer opportunities for practice
+[Insufficient value] neet few needs, provide little value
+[Insufficient effort] require high effort and long periods of practice
+
+006 Remember
+<Consistency and Cohesiveness>
+[Identifiably analogous]
+products and exp that are similar makes it easier to apply our past exp
+[Internal consistency]
+When the interface and interactions are the same within the product, it is easier for us to learn and remember how to use different features of the same product
+[External consistency]
+When an interface and interactions are similar across different products, it is easier for us to transfer what we learned elsewhere to a new product
+[Generalization]
+When there are enough shared interface characteristics and ppl have similar context and goals, the will generalize their past exp and apply it to the new situation
+[Discrimination]
+When an interface is sufficiently different and ppl have different context and goals, they are able to differentiate between what they did in the past and what we are trying to do now, so they will interact in a different way
+[Cohesiveness]
+A cohesive exp has recognizably related interface elements and interactions that collectively form a product
+
+<What might go wrong?>
+[Mismatch] failure to recognize that a new product is similar to something they already know how to use or do. 不要為不同而不同
+[Confusion] Mistakenly interact as if a product is similar to a prior exp when it is actually different
+不要 design in unexpected ways 
+[Forgetting]
+Design products with strong signals and cues and meaningful content and flows to facilitate remembering
+
+06 5 Interaction Design
+001 Dimensions of interaction design
+<Interaction Design>
+[Dimensions] of focus
+[Models] of methods and processes
+Buiding [principles]
+
+<Five Dimensions of IxD>
+[Words (content)] should be easy to understand
+[Visual representations]
+Diagrams, illustrations, graphics and even typographic styles and media to clarify data and concepts
+[Physical objects or space]
+The physical hardware, such as keyboard, mouse, or smartphone, and the space necessary to use it effectively
+[Time] The time during which ppl interact with the product and how they might measure their progress
+[Behavior] The actions, reactions, and emotions ppl have when interacting with a product
+
+002 Design thinking
+<Design thinking>
+Understand ppl and problems
+Challenge assumptions
+Generate solutions
+
+<Design Thinking Methods>
+1. Observe and empathize
+2. Explore and create
+3. Build and deliveer
+4. Iterate and improve
+
+<Double Diamond Model>
+
+<Core Design Principles>
+1. Understand people and their context
+2. Define a product's purpose based on ppl's needs and goals
+3. Craft experiences for efficient flow
+4. Deliver meaningful, relevant, and valuable experiences
+5. Ensure products easy to use, learn, and remember
+6. Always respect and protect the ppl who use our products and services
+
+003 Levels of design Structure
+
+[Structure]>Flow>Interface
+
+<Supports>
+Meaningfulness
+Comprehension
+Predictability
+Confidence
+
+<Structure has 3 levels>
+[Product] Overall architechture defines all of their sections, the purpose of each, and the navigation and connections among them
+[Screen]What belongs on each page or screen and where should it appear? What appears on all or multiple screens?
+Placement can communicate importance, relationships, and functionality
+[Component]
+Define the content and interactivity of indivisual elements on the screen
+
+004 Levels of design Flow
+
+Structure>[Flow]>Interface
+
+<Flow happends on 3 levels>
+[Multi-channel ecosystem]
+Many products and services are used in conjunction with others. How does the product fit into a larger ecosystem?
+Banking is multi-channel
+[Product] Identify the paths through the product and all of the steps and actions necessary to complete tasks
+[Components] Identify and describe the various states of interactive screens and components
+
+
+005 Levels of design Interface
+Structure>Flow>[Interface]
+
+<Microinteractions>
+Motion
+Sound
+Haptics
+
+006 Design patterns
+<Design Patterns>
+Design patterns are recurring, re-usable, optimal solutions to common design problems
+
+<We have design patterns for>
+[Structure]
+[Flow]
+[Interface]
+
+<Good Design Patterns>
+Familiar, recognizable, and easy to apply correctly
+Optimal, effective, and efficient
+Relevant in the context and to the goals
+Effortless and easy to use with minimal work
+
+Do something diffeerently simply because it is better
+
+007 Anti-patterns
+
+<Anti-patterns>
+Just because a solution or pattern is common does not mean it is good or best
+
+<Detect and Avoid Anti-patterns>
+[Seek analogous patterns]
+Select relevant and analogous patterns for the same underlying problem and similar contexts, not just superficially similar patterns
+[Make no assumptions] Just because a pattern is common does not mean it is the best way to interact or is the best path to a goal
+[Explore multiple options] Identify and compare multiple possible solutions for viability, feasibility, and optimality
+[Evaluate and study] Critically review and test the interface and interactions to ensure they work well and are aligned with ppl's needs and expectations
+
+
+008 Dark patterns
+<Types of Dark Patterns>
+Bait and switch
+Disguised ads
+Forced continuity
+Friend spam
+Hidden costs
+Misdirection
+Price comparison revention
+Privacy Zuckering
+Roach motel
+Sneak into basket
+Trick questions
+
+<Dark Patterns>
+Automatic subscription
+Difficult to unsubscribe
+Changing settings and preferences
+
+<What to do>
+[Perceivable] Make it easy for ppl to perceive all concent and opportunities for interaction
+[Findable] Make it easy for ppl to find what they need
+[Honest] Do not mislead
+[Transparent] Be open about options, outcomes, and choices
+[Notify] Tell ppl what will happend, what the product will do, and what they will get
+[Clarity] Be clear and unambiguous
+[Comparison] Make it easy to compare options before making a decision or choice
+[Confirm] Verify the actions performed and choices or decisions made
+[Reversible] Offer mechanisms to easily undo or cancel actions and decisions with minimal costs or consequences
+[Usable] Follow the principles of good usability
+
+009 Navigation structure
+<Navigation>
+Navigation is the movement from place to place or state to state within a product
+
+
+010 Navigation systems
+<Navigation systems>
+[Hierarchical] when there are multiple levels
+[Hub and spoke] there is a central hub from which to explore and browse, there are often several independent sections. e.g., news website
+[Adaptive]e.g., blogs 後台
+[Stream] Where there is a steady stream of new content or posts. e.g., social networks, Facebook
+[Search, sort, and filter] e.g., search engines
+[Interactive or gestural] hover, long press or swipe gesture
+[Content links] Links in the content of a page or screen are a form of contextually relevant navigation. e.g., image or video thumbnail links
+[Hybrid] Mixes different types of navigation into a single system. e.g., twitter
+
+<Findability vs. Discoverability>
+[Findability] When a person knows in advance that something is or should be within the product, it should be easy for them to find when they need it
+[Discoverability] When a person does not know in advance that something exists and is available within the product, it should be easy for them to discover by interacting
+
+011 Content
+
+<Designing with Text>
+[Readability] The ease with which a reader can understand written text
+[Scanning] Organize text to facilitate scanning to help people focus their attention and find what they need
+[Typography] Font size, line height, line length. 45-75 chars limit
+[Interactivity] Cenceal and reveal as needed
+
+<Localization> meet the language, cultural, and other requirements of a specific locale
+[Language]
+[Numeric, date, and time formats]
+[Use of currency]
+[Keyboard usage]
+[Collation and sorting]
+[Symbols, icons, and colors]
+[Culturally appropriate text and graphics]
+[Varying legal requirements]
+
+012 Inputs
+<Bi-directional Data Flow>
+
+<Direct vs. Indirect Action>
+
+<Interaction Gap>
+The more distance or time between the point of interaction and the result or reaction, the more difficult it may be to control
+
+<Direct interaction>
+Strive to make interacitons as direct and immediate as possible
+
+
+013 Gestures
+
+<Gestures>
+[Tap]
+[Double -tap]
+[Long or hard press]
+[Scroll]
+[Pan]
+[Drag]
+[Swipe]
+[Fllick]
+[Pinch]
+[Spread]
+[Rotate]
+[Multi-touch]
+
+<Whole device gestures>
+[Orient]
+[Shake]
+[Flip]
+
+<Signals and Cues>
+Gestures are invicible
+Demos and instructinos can show
+
+Multi-touch gestures are difficult to discover
+
+"What Did I Just Do?"
+Gestures leave no trace, so only apply it on unimportant purpose
+Accidential gestures may go unnoticed and may be difficult to undo
+
+<Standardization of Gestures>
+Use arbitrary and complex gestures with caution
+Instructions, demos, and hints are often necessary
+Use clear signals and cues to indicate that gestures may be used
+Use gestures consistently and in familiar ways whenever possible
+
+014 Voice
+
+<Signals and Cues for Voice>
+Some we rely on are...
+1. Presence of the device
+2. Lights
+3. Sounds
+
+<Principle for Voice Interaction>
+[Reveal] Help ppl understand when voice interaction is available and ready
+[Guide] Help ppl understand what the can say and the actions the product can perform for them
+[Repeat] Repeat the request and provide options and examples when asking for clarification
+[Tell] State the request when delivering results or performing actions on their behalf
+[Respect] Be polite, friendly, concise, considerate, and unobtrusive
+
+<We need to design for>
+[Ubiquitous voice interfaces]
+[Shared and communal devices]
+[Multi-modal interactions]
+[Sociocultural and personal considerations] privacy issues
+
+015 Sensors
+
+<Sensors>
+Sensors gather data from the environment around the device
+[Camera]
+[Microphone]
+[Photometer]
+[Accelerometer]
+[Gyroscope]
+[Compass]
+[Thermometer]
+[Barometer]
+[Altimeter]
+[Magnetometer]
+[Proximity]
+
+<Uses of Sensor Data>
+Context may be better understood with location and environmental data
+Monitor health and fitness
+Learn about nearby things with audio and image recognition
+Automatic device adjustments for improved usability
+
+
+016 Defining microinteractions
+
+<Microinteractions>
+Microinteractions are the small, nuanced reactions of a product that provide infomation and feedback
+例如 愛心按鈕 提供小回饋
+
+
+<Microinteractions>
+[Triggers] e.g., alarm clock. Signal or cue that something has happened or that something will happen
+[Rules] e.g., alarm clock at specific time. Determine the conditions under which microinteractions occur and define what will happen
+[Feedback] e.g., immediate sound of alarm set. Verifies that the person has interacted with the product or that specific conditions have been met
+[Loops and modes] e.g., alarm sound ringing. Some microinteractions repeat or loop until the person stops it or end conditions are met
+
+
+017 Microinteractions Motion
+
+<Motion>
+Our brains are wired to be sensitive to motion and change
+Draws attention toward something ("Look over here!")
+Guides attention away to another thing ("Look over there!")
+
+<Motions has meaning>
+[Time] Progress bars. Animations and motion may communicate progress, transition, and status
+[Space] Changing layers. Motion can help ppl understand spatial location and hierarchy.
+[Relationship] Moving objects toward or away from each other. Connections, relationships, and associations can be clarified and highlighted
+[Change]Shape, size, apprearance, and location may transform in proportion to changes in value or meaning
+[Opportunity] Direction of motion & gesture. Indicate opportunities to interact, often with gestures, by mimicking the gesture with similar motion of the interactive elements on the screen
+
+<Smooth motion>
+easing, make it smooth
+
+018 Microinteractions Sound
+
+Can be annoying
+
+<Sound Has Value and Purpose>
+[Direct attention] Alarms. Attract and guide a person's attention to outcomes they requested or which require their response
+[Provide feedback and information] Buzzing an click sounds. Provide feedback and information about the status and progress of interactions and processes
+[Support brand and identity] Recognizable Apple/Microsoft sound. Sounds may be associated with a product's brand and identity
+
+
+
+019 Microinteractions Haptics
+
+
+<Haptic Feedback>
+[Vibration]震動
+[Force]使力的輕鬆程度
+[Texture]質地
+
+<Vibration>
+[Taps on the screens] Commonl acknowledged with rapid vibrations
+[Hard or long press] Indicate when a press has been long or forceful enough to trigger the interaction
+[Alarms and notifications] Sound and vibration are commonly used in conjunction and increase effectiveness in environments with variable noise levels
+[Gestural feedback] May be used to provide feedback during a gesture and at the end to indicate successful completion
+
+
+020 Error handling
+
+<Effective Error Messages>
+1. Use natural language and never blame the person
+2. Clearly describe what went wrong
+3. Briefly explain why it went wrong
+4. Recommend how to fix or resolve the error
+
+<Presentation of Error Messages>
+1. A generic message that an error occurred
+2. A specifit message about the error near where the error occurred
+
+<Presentation of Error Messages>
+1. Provide error messages as soon as possible
+2. Use colors to draw attention and indicate urgency
+3. Subtle transitions can be used to remove an error message after a correction has been made
+
+<Validation per item>逐項驗證
+means that each input is check for errors as soon as information is entered
+
+<Validation per set>最後一起驗證
+比較麻煩
+means that multiple inputs are checked for errors only when the entire set is completed
+
+021 Mistakes
+<Mistakes vs. Errors>
+[Mistake] Transfer the wrong amount from savings to checking. The transaction will be completed.
+[Error] Request a transfer that exceeds the savings account balance. The transact will be denied.
+
+<Detecting Mistakes>
+Good and instant feedback
+Can UNDO
+
+022 Usability and accessibility
+
+<Usability>
+The ease of use of the product or service
+
+<Utility>
+The usefulness and value of the product or service
+
+<Usability Principles>
+[Human-Computer Interaction (HCI)]
+Nielsen and Shneiderman
+ISO 9241
+
+<HCI Principles>
+Learnability
+Flexibility
+Robustness
+
+<Nielsen and Shneiderman>
+Learnability
+Efficiency
+Memorability
+Errors - How many errors occur, and how well do ppl recover from them?
+Satisfaction
+
+<ISO 9241>
+[Learnability]
+[Understandability]
+[Operability] How much control does the person have within the product?
+[Attractiveness]
+[Usability compliance] Does the product adhere to document standards?
+
+<8 Golden rules of Interface Design>
+1. Strive for consistency
+2. Enable shortcuts for frequent actions
+3. Offer informative feedback
+4. Design dialogs to yield closure
+5. Offer simple error handling
+6. Permit eas reversal of actions
+7. Support internal locus of control
+8. Reduce short-term memory load
+
+<Accessibility>
+All people are able to perceive, understand, navigate, and interact with products regardless of their abilities, and they can contribute equally
+
+<Basic Accessibility>
+1. Text should be structured for screen readers
+2. Imagery should have descriptions
+3. Videos should be captioned
+4. Interfaces should be navigable and usable by multiple methods, including keyboard, mouse, touch, and voice
+
+07 Conclusion
+001 Next steps
+done
+
+III. UX Foundations - Style Guides and Design
+01.Setting the bar with style guides and design systems
+2.1. What Are Style Guides and Design Systems
+02.Communicating user experience standards
+Style guide: content, branding
+how to communicate
+Designsystem: architecture, layout
+how does it look
+
+03.More than just a couple of documents
+
+
+04.The design system
+
+
+05.The style guide
+
+
+06.Where to start
+
+
+IV. UX Foundations - Multidevice Design
+2.1. Overview of Multidevice Strategies
+02.Principles for multidevice design
+<Design for people first>
+Evaluate the key tasks on each device
+Understand the goals of your users on the device
+<Design for an Ecosystem>
+Users ma move fluidly across devices
+Determine how the UX will interact with each device
+<Design a Coherent Exp>
+Adhere to common interaction patterns and platform-specific guidelines
+Apply consistent branding across devices
+
+03.Understanding context of use
+<Context of use>
+Understanding of the conditions and environments in which the user interacts with your product
+
+04.Responsive design
+RWD, notice gesture interactions, performance
+
+
+05.Native apps
+
+
+06.Hybrid apps
+
+
+07.Multidevice considerations
