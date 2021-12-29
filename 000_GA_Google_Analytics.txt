@@ -1,0 +1,367 @@
+1.Introduction
+2.1. Get Started
+
+3.2. Google Analytics Fundamentals
+03.How does Google Analytics work
+04.Set up a Google Analytics account
+05.Install the Google Analytics tracking tag
+06.Properties and views
+Account>>Property>>View
+
+07.Accessing Google demo data
+
+<ADMIN panel>
+
+Google for:
+Google analytics=>
+Access demo account
+可以玩 demo account
+
+08.skipped
+
+4.3. Introduction to the UI and Reports
+
+09.Introduction to reports
+
+Audience: who are your users
+
+Acquisition:how did you access your customers
+
+Behavior:how users engage with this site
+
+Conversions: which one is actually converting
+
+
+10.Metrics and dimensions - The importance of scope
+
+Metrics:pageviews, avg. load time,
+sessions, users,
+bounce rate, conversion rate
+
+Dimensions:page, device type,
+campaign name, country,
+landing page, browser
+
+Scope:
+hit,
+session,(check out, browse...)
+user,
+product
+
+11.Graph data over time in reports
+可切換至sessions
+
+12.Using annotations in analytics reports
+哪邊特別高?
+有週期循環嗎?
+WHY?
+可以在特別的點上面
+加上annotation
+這時間點發生什麼事
+PUBLIC/PRIVATE
+
+13.Different ways to view data
+
+Acquisition->channels
+organic search
+direct
+social
+referral
+各占多少比例
+
+右上角
+可以轉換成PIE CHART
+
+BOUNCE RATE
+多少來自referral, organic search...?
+
+Sort by country, users, revenue
+
+
+5.4. Filter and Segment Data
+14.Basic inline filters
+
+Settings=>filters
+或按audience=>language
+inline filter box:就是搜尋條
+在搜尋條裡面打條件
+可以restrict search results
+
+15.Advanced inline filters
+inline filter box:就是搜尋條
+ADVANCED可以尋找同時包含GOOGLE and referral的data
+
+打入
+youtube|facebook
+|代表OR
+
+16.Introduction to segmentation in Google Analytics
+
+如何將顧客分類
+Geo locations
+Traffic channels
+Site interaction
+Paid and internal keywords
+Landing page
+Technology (browser)
+
+17.Create and apply persistent segments in reports
+
+Acquisition=>channels
+secondary dimension
+type in country
+
+上方
+channels:add segment
+可加入user age, us male, eng lang, windows...
+
+6.5. Audience Reports
+18.Who are your users
+左方條Active users
+左方條Lifetime value
+Cohort analysis (customer lifecycles)
+Audiences
+User explorer:user IDs, individual user behaviors
+Demographics(gender,age...)
+Geo(language, location...)
+Behavior(how they engage)
+Technology(devices)
+Mobile(devices)
+Custom
+Benchmarking(compare to other websites)
+User flow(user journey)
+
+
+19.Audience overview
+上方條可以選擇COMPARE TO PREVIOUS跟之前一段時間比較 user 增加或減少了多少
+
+
+20.Demographics and interests
+
+Demographics:overview
+
+Key metric可以改
+USERS VS REVENUE
+
+<Gender>second dimension:age
+
+21.Geographic location
+{not set}:not able to locate
+
+22.Technology
+browser/OS
+secondary dimension:language
+
+23.Mobile
+Overview:
+打勾DESKTOP, MOBILE, TABLET
+PLOT ROWS
+
+上方
+USERS VS REVENUE
+
+7.6. Acquisition Reports
+24.Where are your users coming from
+點new users, users, sessions to sort
+
+25.Channels
+organic search
+direct
+referral:link clicks
+social
+affiliates:google partner
+paid search
+display:graphical display, graphical ads not necessarily search engine based
+
+哪個管道的BOUNCE RATE最低?
+哪個管道帶來的traffic最高?
+點進REFERRAL可以知道有哪些REFERRAL
+
+26.Source and medium
+Actual specific medium
+
+點上方MEDIUM
+(none):direct traffic
+
+sort type:weighted
+
+27.Referrals
+Acquisition>>Referrals
+
+USER最大的管道來自哪裡
+REVENUE最大的管道來自哪裡
+有重疊嗎
+conversion rate好嗎
+
+加入
+secondary dimension:landing page
+各個管道分別去哪個網頁
+
+點擊各個referral可以看到referral path (page on the site sending traffic)
+也就是說透過youtube,這個referral可以去到哪些網頁來到我們網站
+加入
+secondary dimension:landing page
+各個管道referral path分別去哪個網頁
+
+28.Campaign tracking
+referral tracking
+Automatic detection:
+referral links
+organic search
+direct visits
+
+Manual tagging required:
+social campaigns
+emails
+display ads
+everything else
+
+Source:twitter
+Medium:social
+
+<track campaigns using UTMs>
+<URL made up of hostname, landing page, source, medium, campaign, keyword and content>
+
+<Google URL Builder>
+https://ga-dev-tools.appspot.com/campaign-url-builder
+
+<website url>
+http://yoursite/page.html
+<campaign source>
+twitter
+<campaign medium>
+social
+<campaign name>
+flashsale
+<campaign content>
+redshirt
+<generate url>
+http://yoursite/page.html?utmsource=....
+
+<<Acquisition>>-><All campaigns>
+可觀察utm帶來多少TRSFFIC
+
+8.7. Behavior Reports
+29.How are your users engaging
+<<BEHAVIOR>>-><overview>
+Bounce Rate:
+percentage of users that without any actions at all
+
+
+%Exit: 
+the number of times
+a user exits that page
+over the total number
+of views of that page it accumulates
+
+It represents how many
+users are leaving the site
+
+滑鼠移到名詞上面就會有簡單的解釋
+
+<<BEHAVIOR>>-><Behavior Flow>
+觀看使用者進入網站的行為
+上方選單選page and events
+選擇page觀察行為
+start with this page to view the site
+
+30.Site content
+<<BEHAVIOR>>-><All pages>
+Bounce rate:40%
+
+page value:estimate value of a page
+
+<<BEHAVIOR>>-><Content drilldown>
+每個頁面及其子頁面的pageview
+
+31.Site speed
+<<BEHAVIOR>>-><Page timings>
+AVG page load time找出最慢的頁面
+
+上方條landing page
+誰的速度最慢
+operating system
+哪個OS的速度最慢
+map overlay
+哪個地區的速度最慢
+
+32.Introduction to events
+<EVENTS>
+file downloads, video plays,
+social buttons, mobile ad clicks,
+or any other embedded
+feature or way for your user
+to interact with your site.
+
+33.Event reports
+<<BEHAVIOR>>-><OVERVIEW>->TOTAL EVENTS
+
+<<BEHAVIOR>>-><EVENTS>
+->TOP EVENTS
+
+<<BEHAVIOR>>-><EVENTS>
+->PAGES
+
+<<BEHAVIOR>>-><EVENTS>
+->EVENTS FLOW
+
+9.8. Conversion Reports
+34.How are users converting
+define goals
+
+35.Understanding funnel visualization
+<<CONVERSIONS>>-><Funnel Visualization>
+綠色:繼續動作的人
+紅色:跑掉的人
+
+36.Visualizing funnels with Goal Flow
+
+<<CONVERSIONS>>-><GOAL FLOW>
+觀看網站的動線
+選擇:region 看不同國家客戶的動線
+
+37.Real-time data report
+<<REAL-TIME>>
+
+38.Configure your GA account
+<<ADMIN>>-><Account><Property><View>
+
+
+39.Manage user accounts
+<<ADMIN>>-><Account><Property><View>
+
+<<ADMIN>>-><View>
+User management
+=>Add new user/Add permissions
+=>enter emails
+新增使用者
+並修改權限
+
+40.Set up goals
+<<ADMIN>>-><View>->Goal->New goal
+->custom
+Name
+Goal slot IDs
+Destination(V)
+Continue
+
+Destination:
+equals to thankyou.html
+value <on> 25 usd
+funnel <on>
+Step 
+(1) contact us form
+/contact-us/
+save 
+
+
+41.Next steps
+Advanced google analytics
+Google analytics IQ assessment
+
+Souce:GA ESST 
+
+
+
+
+
