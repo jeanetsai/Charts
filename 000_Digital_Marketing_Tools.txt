@@ -1,0 +1,184 @@
+01.01.Discover the top digital marketing tools
+02.Foundations of Digital Marketing
+02.02.Important areas of digital marketing
+<Social media>
+<Email marketing>
+<Display advertising>
+<Video marketing>
+<Content creation and curation>
+
+02.03.Tips for selecting the right tool
+<Look for proven track records>
+<Take advantage of free trials>
+<Find tools that are scalable>
+<Benefit from tools that can provide multiple solutions>
+
+03.Social Media Marketing
+03.04.Organic social media marketing platforms
+<Facebook>
+<Instagram>
+<Twitter>
+<Pinterest>
+<Snapchat>
+
+<privide tips>
+
+<Establish Goals>
+Drive revenue?
+Drive traffic?
+Build followers?
+
+<Calcualte ROIs>
+Return on investment
+
+03.05.Promoting content in social media
+<Twitter>
+=><tweet activity>
+=><promote your tweet>
+
+03.06.Social media automation tools and suites
+
+Schedule accounts
+<Hootsuite>
+social automation
+not free
+<Agorapulse>
+free trial
+<buffer>
+free trial
+<Sprout social>
+expensive
+
+04.Digital Advertising
+04.07.Different methods of digital advertising
+<Display>
+banner, side bar
+<Search>
+sponsored search ads
+<Video>
+youtube
+<Mobile>
+spnsored mobile ads
+
+04.08.Display advertising tools
+<Google ad manager>
+<Facebook ad manager>
+<bing ads>
+<yahoo ads>
+gemini.yahoo.com
+<media.net>
+combine bing and yahoo
+<propellerads.com>
+popup ads
+<nanigans>
+
+04.09.Search engine marketing
+<Google ad manager>
+<Bing ads>
+<Yahoo ads>
+gemini.yahoo.com
+<e.baidu.com>
+
+<semrush>
+<spyfu>
+competitor information
+
+04.10.Video advertising tools
+<Google ad manager>
+ads.google.com
+<Oath.com>
+verizon ad network
+within ios or android
+<openx video>
+high quality websites
+<appnexus>
+cross platform video ad network
+<Facebook video ads>
+
+04.11.Mobile advertising platforms
+<admob by google>
+<media.net>
+<searchads.apple.com>
+<unity3d.com, unity ads>
+mobile games
+<inmobi.com>
+<textmagic.com>
+market with text messages
+sms marketing
+
+05.Content Creation and Curation
+05.12.Content design tools
+<spark.adobe.com>
+adobe spark
+adobe creative suite
+<final cut pro, apple>
+<gimp>
+<canva.com>
+infographics
+<pixlr editor>
+
+05.13.Content curation tools
+<scoop.it>
+<feedly>
+rss blog
+<getpocket.com>
+similar to evernote
+<pinterest.com>
+<scribble>
+scribblelive.com
+<pearltrees>
+organize posts
+
+06.Email Marketing
+06.14.Considerations before choosing
+<size of email list>
+<Lead generation/integration>
+<Automation>
+<Ease of use>
+<Scalability>
+可擴增性
+<Analytics>
+<A/B testing>
+
+06.15.Top email marketing tools
+<Hubspot email marketing>
+industry leader
+<constantcontact>
+<aweber>
+<activecampaign>
+more like hubspot
+crm functionality
+<mailchimp>
+
+07.Search Engine Optimization (SEO)
+07.16.Free SEO tools and techniques
+<Yoast SEO>
+wordpress plugin, best
+<Ubersuggest>
+actually volume of searches, SEO difficulty
+<Google keyword planner>
+volume of searches
+
+07.17.Paid SEO tools
+<moz.com>
+<SEMrush>
+<spyfu>
+<ahrefs>
+largest db of backlinks
+
+08.Affiliate Marketing
+08.18.Tips for selecting the right platform
+
+Payment structure(CPC/CPA)
+Robust tracking features
+Commusion customization
+High-quality affiliates
+Reputation
+
+08.19.Top affiliate marketing networks
+<cj.com>
+<rakutenmarketing.com>
+<Clickbank>
+
+
+Source: Marketing Tools Digital Marketing
