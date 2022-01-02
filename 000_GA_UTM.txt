@@ -1,0 +1,92 @@
+
+13 - Why Use Google Analytics Campaigns
+<GA campaign>
+Indicate which sources to invest more in
+Alert analysts to broken links and missing print ads
+
+14 - Understanding How Google Analytics Campaigns work
+
+每個不同管道都去到每個不同的utm tag
+
+http://Yoursite.ca?utm_campaign=UniqueCampaignName
+
+15 - Understanding UTM Tags
+
+<utm_source>
+BING
+GOOGLE
+TWITTER
+=> Used to identify the website or entity referring traffic
+
+<utm_campaign>
+SUMMER_SALE
+BOXING_WEEK
+ANNIVERSARY
+=> Name of the campaign, identifies a particular promotion
+
+<utm_content>
+FOOTER_LINK
+LOGO_LINK
+TEXT_LINK
+=> Refers to which linked is clicked within a given document
+For example: in an email
+
+16 - Creating a Google Analytics Campaign.en
+<URL tag builder>
+Ga-dev-toos+campain url builder
+
+<website url>your website/analytics-demo/
+<campaign source>Newsleter
+<campaign medium>email
+<campaign name>summer_sale
+<campaign content>gate_end_link
+
+Copy this link and drive some traffic
+
+<Real-time>=><Traffic sources>可以看到medium=email source=newsletter
+
+
+17 - Using Redirects to Create User Friendly Campaign URLs
+
+Shorten your link (bit.ly)
+
+18 - Summary
+Done
+
+19 - What Are Google Analytics Reports
+
+What devices do users use?
+Geolocation?
+
+20 - Exploring Reports
+
+Geo=>location=>按國家可以進一步看來自哪個州
+
+All traffic=>source/medium
+(Related to utm tag)
+(None)=>direct
+
+Behavior=>overview
+
+21 - Creating Custom Reports
+
+<Dimensions>
+Fields with unique values
+Such as city, browser, type or new versus returning visitor
+
+<Metrics>
+Num of visitors
+Pages per session
+
+<Filters>
+Modify reports by excluding or including segments
+
+22 - Demo - Creating a Custom Report
+customization=>custom reports
+
+23 - Summary
+
+
+
+
+Source:Understand Sites Traffic Using Google Analytics (PL)
